@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Celular 3D</title>
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            overflow: hidden;
+        }
+
+        #scene-container {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="scene-container"></div>
+
+    <!-- Importar three.js -->
+    <script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
+
+    <!-- Importar GLTFLoader da pasta de exemplos (tem que ser DEPOIS do three.js) -->
+    <script src="https://unpkg.com/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+
+    <!-- Seu JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
